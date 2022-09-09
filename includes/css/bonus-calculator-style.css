@@ -1,0 +1,531 @@
+.main-bonus-wrapper {
+    background: #ebf9fa url('../images/background.svg') no-repeat bottom;
+    padding:46px 0;
+    background-size: contain;
+}
+.main-bonus-wrapper .top_header {
+    background-image: url(../images/clouds.svg),url(../images/clouds.svg);
+    background-repeat: no-repeat;
+    background-position: center left 50px,center right 50px;
+    background-size: 195px,120px;
+}
+.main-bonus-wrapper .main_title{
+	font-size: 38px;
+	text-align: center;
+}
+.main-bonus-wrapper .main_title_sub{
+	font-size: 16px;
+	text-align: center;
+}
+.gov-bonus-cal-wrapper{
+	width: 75%;
+	max-width: 90%;
+    margin: 40px auto;
+}
+.colum-left {
+    margin-right:32px;
+}
+.calculator_wrapper .input_warpper{
+    padding:32px;
+    background:#fff;
+    border-radius: 20px;
+}
+#gov-bonus-cal-wrapper {
+    width: 87%;
+    margin: 0 auto;
+}
+.input_warpper p {
+    overflow:hidden;
+}
+.input_warpper p label {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    width: 260px;
+}
+.input_warpper #deposit_amount,.input_warpper  #deposit_amount_years  {
+    float: right;
+    background: #EBF3F5;
+    padding: 9px 32px;
+    letter-spacing: -0.24px;
+    color: #006279;
+    font-weight: normal;
+    outline:none;
+    text-align: center;
+    font-size: 32px;
+    width:132px;
+
+}
+.input_warpper p  input#deposit_help_popup, .input_warpper p input#deposit_year_popup{
+    color: #00c2b5;
+    border: 1px solid #00c2b5;
+    height: 36px;
+    line-height: 17px;
+    font-size: 17px;
+    background: #fff;
+    float: left;
+    padding: 8px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    outline:none;
+    border-radius: 8px;
+    width:177px;
+    transition:all 0.4s ease;
+    font-weight: bold;
+}
+.input_warpper p input[type=button]:hover{background:#ebf3f5  !important;}
+
+
+.input_warpper hr {
+	background: #B2CFD6;
+    height: 1px;
+    border: none;
+    margin: 30px 0 30px;
+}
+.calculator_wrapper .govt_policy {
+    background: #fff;
+    border-radius: 20px;
+    padding: 18px 32px;
+    margin: 20px 0;
+}
+.calculator_wrapper .govt_policy p {
+    margin: 0;
+    font-size: 17px;
+}
+.calculator_wrapper .result_wrapper {
+    padding: 30px 32px 34px 32px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.calculator_wrapper .result_wrapper .the_results .divider {width: 2px; height: 146px;background: #ebf3f5;align-self: center; position: relative;  display: none; }
+.calculator_wrapper .result_wrapper .the_results .divider:before {content: '+';background: white; padding: 5px; align-self: center; font-weight: bold; font-size: 30px; margin: -12px; line-height: 1;}
+.calculator_wrapper .result_wrapper .the_results { margin-top:20px; display: flex; justify-content: space-between; _align-items: center; gap:30px;  }
+.calculator_wrapper .result_wrapper .additional_result { display: none; }
+
+.calculator_wrapper .total_you_get{
+    padding: 32px 32px 1px;
+
+    color:#fff;
+    border-radius:0 0 20px 20px;
+    font-weight:bold;
+    position:relative;
+
+    background: #e34592;
+    background: -moz-linear-gradient(45deg,  #e34592 0%, #873dad 100%);
+    background: -webkit-linear-gradient(45deg,  #e34592 0%,#873dad 100%);
+    background: linear-gradient(45deg,  #e34592 0%,#873dad 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34592', endColorstr='#873dad',GradientType=1 );
+
+}
+.calculator_wrapper .total_you_get .text-wrapper{
+	background: url(../images/brank@2x.png)no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+    padding-bottom: 40px;
+
+}
+.calculator_wrapper h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.calculator_wrapper p.small_desc{
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.calculator_wrapper span.currency { margin-right: -7px;}
+
+.calculator_wrapper h2.weekly_deposit , .calculator_wrapper h2.additional_weekly_deposit {
+    font-size: 40px !important;
+    margin: 22px 0 14px;
+}
+.calculator_wrapper p.desc_result {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+.calculator_wrapper .total_you_get p.small_desc{
+    font-size: 20px;
+    font-weight: bold;
+}
+.calculator_wrapper .total_you_get .total_bonus{
+    font-size: 40px;
+    color:#fff;
+}
+.calculator_wrapper .total_you_get #view_breakdown {
+    font-size: 17px;
+    padding: 0px 20px;
+    line-height: initial;
+    background: transparent;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline:none;
+    font-weight:bold;
+    height: 36px;
+    width:177px;
+    border-radius:8px;
+}
+.calculator_wrapper .total_you_get #view_breakdown:hover { background: #ffffff24;}
+
+.calculator_wrapper .total_you_get .promptWrapper .linkTextingButton {
+    top: 12px;border-radius:9px;
+}
+.calculator_wrapper .total_you_get .promptWrapper .linkTextingInput{
+    height: 60px;color:#006179; border-radius:9px;
+}
+.calculator_wrapper .total_you_get .linkTextingWidget .linkTextingError {
+    font-family: inherit;
+    color: #fff;
+}
+.calculator_wrapper .promptWrapper .promptContent{
+	margin: 0;
+}
+.calculator_wrapper .linkTextingWidget{
+	margin: 0px 0 30px;
+}
+.calculator_wrapper .break_btn{
+	margin: 0;
+}
+.rangeslider--horizontal {
+    height: 14px;
+    background: #a4dce0;
+    box-shadow: none;
+    margin: 32px 0 30px;
+}
+.rangeslider__fill {
+    background: #00b4a9;
+    box-shadow: none;
+}
+.rangeslider__handle:after {
+	display: none;
+}
+.rangeslider--horizontal .rangeslider__handle {
+    width: 40px;
+    top: -15px !important;
+    height: 40px;
+    background: #00b4a9;
+    border: 1px solid #00b4a9;
+    -webkit-transition: -moz-transform 0.3s ease;
+    -moz-transition: -webkit-transform 0.3s ease;
+    transition: transform 0.1s ease, box-shadow 0.2s ease-out;
+    -moz-box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.rangeslider--horizontal .rangeslider__handle:hover {transform: scale(1.05);background:#05aaa1;box-shadow: 0px 0 0px 7px #ebf3f5c7;}
+
+.dep_errmsg,.year_errmsg{
+    display: none;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0 0;
+    clear: both;
+}
+
+.calculator_wrapper .the_results .result{
+    width: 40%;
+}
+.calculator_wrapper .result_wrapper .additional_result {
+    width: 45%;
+}
+
+.tooltip { max-width: 24px;
+    background: #00c2b5;
+    width: 24px;
+    height: 24px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    vertical-align: 10px;
+    padding-right: 1px;}
+
+/* *********** Popup Design ********** */
+
+.breakdown h3 {font-size:38px}
+.breakdown h4 {margin-bottom:5px; font-size:17px !important; color:#006179; font-weight: 200;  font-family: 'ModernEra';}
+.breakdown .swal2-title {text-align:center !important}
+.breakdown .swal2-title p { margin-bottom: 7px; font-size: 20px;}
+
+
+.swal2-close {
+	color: #00c2b5 !important;
+    font-size: 40px !important;
+   
+    font-weight: bold;
+	outline: none !important
+}
+.swal2-popup {
+	border-radius: 9px !important;
+}
+
+div#swal2-content {
+    font-size: 17px !important;
+    line-height: 26px !important;
+    color: #006179 !important;
+    text-align:left;
+}
+.swal2-styled.swal2-confirm {
+    border-radius: 9px !important;
+    background-color: #00c2b5 !important;
+    font-size: 16px !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+.swal2-title {
+    display: block !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+    text-align: left !important;
+    margin: 12px 0 .4em !important;
+	color: #006179 !important;
+
+}
+.swal2-title hr, #swal2-content hr{
+    background: #B2CFD6 ;
+    height: 2px;
+    border: none;margin-bottom: 5px;
+}
+.breakdown_popup_content{
+	display: none;
+}
+.your_setting h4{
+	text-align: left !important;
+	font-size: 20px !important;
+    margin-bottom: 5px;
+    font-family: 'ModernEraBold';
+}
+.your_setting p{
+
+	text-align: left;
+}
+
+.popup_weekly_deposit {
+    padding: 16px 0px;
+    overflow: hidden;
+}
+.popup_weekly_deposit .left{
+	float: left;
+    color: #006179;
+    font-size: 16px;
+    margin: 0;
+}
+.popup_weekly_deposit .right {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #006179;
+    margin: 0;
+}
+.popup_govt_bonus{
+	color: #fff;
+    padding: 17px 27px;
+	overflow: hidden;
+	background: #ab40a2;
+    /* background: -moz-linear-gradient(bottom,  #873dad 0%, #e34592 100%);
+    background: -webkit-linear-gradient(bottom,  #873dad 0%,#e34592 100%);
+    background: linear-gradient(to bottom,  #873dad 0%,#e34592 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#873dad', endColorstr='#e34592',GradientType=1 ); */
+    position: relative;
+    margin: 0 -31px;
+}
+.popup_govt_bonus:before {
+	content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* border-left: 20px solid #873dad;
+    border-right: 0px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-top: 40px solid transparent; */
+    border-left: 13px solid #873dad;
+    border-right: 0px solid transparent;
+    border-bottom: 46px solid transparent;
+    border-top: 46px solid transparent;
+    height: 0px;
+}
+.popup_govt_bonus .left{
+	float: left;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 4px;
+}
+.popup_govt_bonus .left p{
+	margin: 0; margin-bottom:5px;
+}
+.popup_govt_bonus .right,.popup_interest .right{
+    margin: 0;
+    float: right;
+    color: #006179;
+    font-size: 20px;
+    font-weight:bold;
+}
+.popup_govt_bonus .right {
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+}
+.popup_interest {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.popup_interest .left{
+	float: left;
+    margin: 0;
+    font-size: 16px;
+    width:70%
+}
+.popup_interest .left p {
+	color: #66a0af;
+	margin: 0;
+}
+.popup_interest .left p.interest_subtitle,.popup_interest .left p.other_interest_subtitle  {
+	color: #66a0af;
+	margin: 0;
+	font-size: 14px;
+}
+#swal2-content hr.bold {
+    height: 2px !important;
+}
+.desktop_view{
+	display:block;
+}
+.mobile_view{
+	display:none;
+}
+
+@media (max-width: 767px){
+
+    .grid {
+        flex-direction: column;
+    }
+	.desktop_view{
+		display:none;
+	}
+	.mobile_view{
+		display:block;
+	}
+	.gov-bonus-cal-wrapper{
+		width: 90%;
+	}
+	.main-bonus-wrapper .top_header {
+        background: none !important;
+        padding: 0 8px 0 10px;
+	}
+	.main-bonus-wrapper .main_title {
+	    font-size: 30px;
+	}
+	.col-md-6 {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.colum-left {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+	}
+	.calculator_wrapper .input_warpper {
+	    padding: 15px;
+	    box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.1);
+	    position: relative;
+	    border-radius: 10px;    padding-bottom: 2px;
+	}
+	.input_warpper p label {
+	    font-size: 16px;
+	    width: 200px;
+	}
+	
+	.input_warpper #deposit_amount,.input_warpper  #deposit_amount_years {
+		font-size: 20px;
+		width: 90px;
+		padding: 0;
+		text-align: center;
+    }
+
+    .rangeslider--horizontal .rangeslider__handle {
+        width: 30px;
+        top: -10px !important;
+        height: 30px;}
+
+    .rangeslider--horizontal { height: 11px; }
+
+	.calculator_wrapper .result_wrapper {
+	    padding: 30px 20px 25px 20px;
+	    border-top-left-radius: 0;
+	    border-top-right-radius: 0;
+	    margin-top: -8px;
+	}
+	.calculator_wrapper h2 {
+	    font-size: 20px;
+	    letter-spacing: 0;
+	}
+	.calculator_wrapper p.small_desc {
+    	font-size: 16px;
+    }
+    .calculator_wrapper h2.weekly_deposit, .calculator_wrapper h2.additional_weekly_deposit {
+	    font-size: 30px !important;
+	}
+	.calculator_wrapper .total_you_get .total_bonus { font-size: 30px;  width: 36%;  position: absolute; right: 0;  top:15%	}
+
+    .main-bonus-wrapper {background-image:none}
+    .calculator_wrapper .govt_policy p {font-size:14px !important}
+    h2.swal2-title {font-size:24px !important}
+    .swal2-content, .swal2-header, .swal2-actions { padding: 0 8px 8px 8px!important;}
+    .swal2-close {  font-size: 34px !important;}
+    .input_warpper p input#deposit_help_popup, .input_warpper p input#deposit_year_popup, .calculator_wrapper .total_you_get #view_breakdown {font-size:12px !important; height: 28px !important;  width: 140px; line-height: 11px;}
+    .calculator_wrapper .govt_policy {padding: 18px 20px !important;}
+    .calculator_wrapper .total_you_get {padding: 24px 20px 0px;}
+    .calculator_wrapper .total_you_get .text-wrapper { background-size: 153px;}
+   .gov_desc {font-size: 16px; max-width: 54%;}
+   .popup_govt_bonus {margin: 0 -20.5px; padding:17px 18px}
+   .calculator_wrapper .result_wrapper .the_results {display:block}
+   .calculator_wrapper .result_wrapper .the_results .divider {  height: 2px;  width: 100%; display: block;  margin: 30px 0;}
+   .calculator_wrapper .result_wrapper .the_results .divider:before{margin: 0 auto;  display: block;  width: 17px;  height: 10px;  padding: 11px;   line-height: 11px;
+    margin-top: -15px;  position: absolute;  left: 42%;}
+     .text-prompt { display: none;}
+}
+
+
+
+@media (max-width: 320px)
+{
+.calculator_wrapper .total_you_get .text-wrapper { background-size: 120px;}
+.input_warpper p label { font-size: 15px;   width: 163px;}
+
+}
+
+
+@media only screen
+and (min-device-width : 500px)
+and (max-device-width : 1500px)  {
+.gov-bonus-cal-wrapper { width: 90%;}
+.colum-left { margin-right: 20px; margin-left: -10px;}
+.input_warpper p label { width: 50%;}
+.input_warpper p .pseudo-element {
+    position: relative;
+ }
+
+.input_warpper p .pseudo-element { width: 32%; display: block;    float: right;}
+.input_warpper #deposit_amount,.input_warpper  #deposit_amount_years {   font-size: 22px;   padding: 6px 14px;  height: 30px; font-family: inherit; width:85%; }
+.text-prompt { display: none;}
+
+}
